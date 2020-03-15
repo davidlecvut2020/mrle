@@ -5,7 +5,8 @@ export const initGA = trackingID => {
 };
 
 export const PageView = () => {
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  // ReactGA.pageview(window.location.pathname + window.location.search);
+  ReactGA.pageview("/menu/");
 };
 
 /**

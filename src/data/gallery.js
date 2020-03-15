@@ -64,6 +64,11 @@ export default [
     caption: "Crème brûlée"
   },
   {
+    src: cremeCaramel,
+    thumbnail: cremeCaramel,
+    caption: "Crème caramel"
+  },
+  {
     src: vietnamCafe,
     thumbnail: vietnamCafe,
     caption: "Vietnamská káva kafephin"

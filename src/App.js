@@ -18,8 +18,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/menu/" component={CategoriesFoods} />
         <Route exact path="/menu/:slug" component={FoodFilteredList} />
-        <Route exact path="/fotogalerie/" component={Photogallery} />
-        <Route exact path="/kontakt/" component={Contact} />
+        <Route exact path="/photogallery/" component={Photogallery} />
+        <Route exact path="/contakt/" component={Contact} />
         <Route component={Error} />
       </Switch>
     </>

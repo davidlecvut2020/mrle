@@ -39,11 +39,11 @@ export default class Navbar extends Component {
             </li>
             <li>
               {" "}
-              <Link to="/fotogalerie">Fotogalerie</Link>{" "}
+              <Link to="/photogallery">Fotogalerie</Link>{" "}
             </li>
             <li>
               {" "}
-              <Link to="/kontakt">Kontakt</Link>{" "}
+              <Link to="/contakt">Kontakt</Link>{" "}
             </li>
           </ul>
         </div>

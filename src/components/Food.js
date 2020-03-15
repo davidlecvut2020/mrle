@@ -7,11 +7,10 @@ import chilliDouble from "../images/chilli-double.png";
 const Food = memo(({ food }) => {
   const { code, name, price, description, isHot } = food;
   var imgHot = isHot === 1 ? chilliSingle : chilliDouble;
-  // console.log(name);
   return (
     <article className="food">
       <div className="food-container">
-        <div class="food-info">
+        <div className="food-info">
           <span className="code">{code}</span>
           <span className="name">{name}</span>
           <span className="price">{price} Kč</span>
@@ -28,7 +27,6 @@ const Food = memo(({ food }) => {
 Food.propTypes = {
   food: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    image: PropTypes.arrayOf(PropTypes.string).isRequired,
     price: PropTypes.number.isRequired
   })
 };

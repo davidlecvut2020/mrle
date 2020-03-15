@@ -22,8 +22,7 @@ const Category = memo(({ category }) => {
 Category.propTypes = {
   category: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    slug: PropTypes.string.isRequired,
-    image: PropTypes.arrayOf(PropTypes.string).isRequired
+    slug: PropTypes.string.isRequired
   })
 };
 export default Category;

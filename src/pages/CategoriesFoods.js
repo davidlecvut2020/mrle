@@ -6,7 +6,7 @@ import Loading from "../components/Loading";
 export default class CategoriesFoods extends Component {
   static contextType = FoodContext;
   render() {
-    let { loading, categories: categories } = this.context;
+    let { loading, categories } = this.context;
     categories = categories.map(category => {
       return <Category key={category.id} category={category} />;
     });

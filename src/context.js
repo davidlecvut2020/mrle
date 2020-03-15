@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { PageView, initGA } from "./components/Tracking";
+// import { PageView, initGA } from "./components/Tracking";
+import ReactGA from "react-ga";
 import category from "./data/category";
 import menu from "./data/menu";
 import galery from "./data/gallery";
@@ -8,8 +9,10 @@ const FoodContext = React.createContext();
 
 function initializeReactGA() {
   console.log("spustim tracker");
-  initGA("UA-160721617-1");
-  PageView();
+  ReactGA.initialize("UA-160721617-1");
+  // initGA("UA-160721617-1");
+  ReactGA.pageview("/#/menu/");
+  // PageView();
 }
 
 export default class FoodProvider extends Component {
