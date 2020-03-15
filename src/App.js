@@ -1,25 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import ReactGA from "react-ga";
+
+import Home from "./pages/Home";
+import CategoriesFoods from "./pages/CategoriesFoods";
+import FoodFilteredList from "./components/FoodFilteredList";
+import Photogallery from "./pages/PhotoGallery";
+import Contact from "./pages/Contact";
+import Error from "./pages/Error";
+import Navbar from "./components/Navbar";
+import { Switch, Route } from "react-router-dom";
+
+function initializeReactGA() {
+  console.log("spustim tracker");
+  ReactGA.initialize("");
+  ReactGA.pageview("/Home");
+}
 
 function App() {
+  initializeReactGA();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/menu/" component={CategoriesFoods} />
+        <Route exact path="/menu/:slug" component={FoodFilteredList} />
+        <Route exact path="/fotogalerie/" component={Photogallery} />
+        <Route exact path="/kontakt/" component={Contact} />
+        <Route component={Error} />
+      </Switch>
+    </>
   );
 }
 
