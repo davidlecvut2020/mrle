@@ -128,7 +128,7 @@ h6 {
   color: var(--mainWhite);
   transition: var(--mainTransition);
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: var(--mainSpacing);
 }
@@ -145,7 +145,7 @@ h6 {
   }
   .nav-center {
     max-width: 1280px;
-    margin: 3px auto;
+    margin: 0px auto;
     display: flex;
   }
   .nav-links {
@@ -154,7 +154,7 @@ h6 {
     margin-left: 4rem;
   }
   .nav-links a {
-    margin: 20px 1rem;
+    margin: 3px 1rem;
     padding: 0.5rem 0;
   }
 }
@@ -362,8 +362,8 @@ h6 {
   padding: 0.5rem 5px;
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 600;
+  font-size: 0.9rem;
   letter-spacing: var(--mainSpacing);
 }
 .food-container {
@@ -374,8 +374,7 @@ h6 {
   background: #f7e5b5;
 }
 .food-description {
-  font-weight: 500;
-  font-size: 0.9rem;
+  font-size: small;
   color: #333;
   display: block;
   margin: 5px;
@@ -384,15 +383,15 @@ h6 {
 .food-info .price {
   font-weight: 500;
   color: #666;
+  margin-left: 10px;
 }
 .food-info .code {
   /* color: #e68b04; */
   color: var(--primaryColor);
-  font-weight: 700;
-  width: 70px;
-  height: 26px;
+  font-weight: 500;
   border-radius: 16%;
   text-align: center;
+  margin-right: 10px;
   /* border: 1px solid #e68b04; */
   border: 1px solid var(--primaryColor);
 }
@@ -405,7 +404,7 @@ h6 {
   width: 90vw;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   grid-row-gap: 2rem;
   grid-column-gap: 30px;
 }
@@ -417,10 +416,11 @@ h6 {
 }
 @media screen and (min-width: 992px) {
   .foodslist-center {
-    width: 95vw;
+    width: 90vw;
     max-width: 1280px;
   }
 }
+,
 /* end of foodlist */
 /* contact*/
 .contact {
@@ -456,7 +456,7 @@ h6 {
 
 @media screen and (min-width: 992px) {
   .contact-info {
-    width: 95vw;
+    width: 90vw;
     max-width: 1280px;
   }
   .contact-info {
@@ -485,7 +485,7 @@ h6 {
 }
 @media screen and (min-width: 992px) {
   .mapy-cz {
-    width: 95vw;
+    width: 90vw;
     max-width: 1280px;
   }
 }

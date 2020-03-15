@@ -12,10 +12,6 @@ export default class MapyCZ extends Component {
     LoadMapCz(() => {
       // Work to do after the library loads.
       this.setState({ mapsReady: true });
-      console.log("mapy OK:");
-      // var center = SMap.Coords.fromWGS84(14.4179, 50.12655);
-      // var m = new SMap(JAK.gel("mapa"), center, 13);
-      // m.addDefaultLayer(SMap.DEF_BASE).enable();
     });
   }
 

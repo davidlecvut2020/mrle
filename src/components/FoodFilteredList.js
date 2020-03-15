@@ -6,7 +6,6 @@ import Food from "./Food";
 export default class FoodFilteredList extends Component {
   constructor(props) {
     super(props);
-    console.log(this.props);
     this.state = {
       slug: this.props.match.params.slug
     };
@@ -14,10 +13,6 @@ export default class FoodFilteredList extends Component {
 
   static contextType = FoodContext;
   render() {
-    console.log(
-      "budu pouzivat fci filterFoodsByIdCategory, context je: ",
-      this.context
-    );
     let { filterFoodsByIdCategory, getCurrentCategory } = this.context;
     let foods = filterFoodsByIdCategory(this.state.slug);
     if (foods.length === 0) {
