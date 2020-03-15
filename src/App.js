@@ -14,7 +14,7 @@ import { Switch, Route } from "react-router-dom";
 function initializeReactGA() {
   console.log("spustim tracker");
   ReactGA.initialize("UA-160721617-1");
-  ReactGA.pageview("/Home");
+  ReactGA.pageview("/");
 }
 
 function App() {
