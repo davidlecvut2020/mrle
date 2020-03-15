@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mrle/static/css/main.0f5cbd8d.chunk.css",
-    "main.js": "/mrle/static/js/main.eaa69726.chunk.js",
-    "main.js.map": "/mrle/static/js/main.eaa69726.chunk.js.map",
+    "main.css": "/mrle/static/css/main.5eae5a7a.chunk.css",
+    "main.js": "/mrle/static/js/main.d13bf87f.chunk.js",
+    "main.js.map": "/mrle/static/js/main.d13bf87f.chunk.js.map",
     "runtime-main.js": "/mrle/static/js/runtime-main.a9a92ddf.js",
     "runtime-main.js.map": "/mrle/static/js/runtime-main.a9a92ddf.js.map",
     "static/js/2.acdc5275.chunk.js": "/mrle/static/js/2.acdc5275.chunk.js",
     "static/js/2.acdc5275.chunk.js.map": "/mrle/static/js/2.acdc5275.chunk.js.map",
     "index.html": "/mrle/index.html",
-    "precache-manifest.e6e42a3bc65ac7966fba98c2da573726.js": "/mrle/precache-manifest.e6e42a3bc65ac7966fba98c2da573726.js",
+    "precache-manifest.0433cf3bf079b912ec905ea8d9217709.js": "/mrle/precache-manifest.0433cf3bf079b912ec905ea8d9217709.js",
     "service-worker.js": "/mrle/service-worker.js",
-    "static/css/main.0f5cbd8d.chunk.css.map": "/mrle/static/css/main.0f5cbd8d.chunk.css.map",
+    "static/css/main.5eae5a7a.chunk.css.map": "/mrle/static/css/main.5eae5a7a.chunk.css.map",
     "static/js/2.acdc5275.chunk.js.LICENSE.txt": "/mrle/static/js/2.acdc5275.chunk.js.LICENSE.txt",
     "static/media/aperol-alkoholicky-campari-orange.jpg": "/mrle/static/media/aperol-alkoholicky-campari-orange.0cc046c4.jpg",
     "static/media/banh-chung.jpg": "/mrle/static/media/banh-chung.c369f0ea.jpg",
@@ -40,7 +40,7 @@
     "static/media/mrle-vanoce.jpg": "/mrle/static/media/mrle-vanoce.26d2203d.jpg",
     "static/media/mrle-vchod.jpg": "/mrle/static/media/mrle-vchod.58e4de2c.jpg",
     "static/media/napoj-orange.jpg": "/mrle/static/media/napoj-orange.ddca4158.jpg",
-    "static/media/nem-ran.jpg": "/mrle/static/media/nem-ran.087af4fb.jpg",
+    "static/media/nem-ran.jpg": "/mrle/static/media/nem-ran.8a0b3545.jpg",
     "static/media/oslavy-narozeniny.jpg": "/mrle/static/media/oslavy-narozeniny.3d0621b8.jpg",
     "static/media/oslavy.jpg": "/mrle/static/media/oslavy.a536000d.jpg",
     "static/media/pho-bo-ga.jpg": "/mrle/static/media/pho-bo-ga.6ecebab7.jpg",
@@ -52,7 +52,7 @@
     "static/media/sushi-box-mix.jpg": "/mrle/static/media/sushi-box-mix.35b399a5.jpg",
     "static/media/sushi-box.jpg": "/mrle/static/media/sushi-box.d9d24cc5.jpg",
     "static/media/sushi-chien.jpg": "/mrle/static/media/sushi-chien.191241aa.jpg",
-    "static/media/sushi-ebi-tempura.jpg": "/mrle/static/media/sushi-ebi-tempura.e9b8b1f4.jpg",
+    "static/media/sushi-ebi-tempura.jpg": "/mrle/static/media/sushi-ebi-tempura.eb81a61a.jpg",
     "static/media/sushi.jpg": "/mrle/static/media/sushi.89110921.jpg",
     "static/media/tom-chien-rizecky.jpg": "/mrle/static/media/tom-chien-rizecky.a01202d8.jpg",
     "static/media/vietnamska-kava-kafephin.jpg": "/mrle/static/media/vietnamska-kava-kafephin.fc651639.jpg",
@@ -61,7 +61,7 @@
   "entrypoints": [
     "static/js/runtime-main.a9a92ddf.js",
     "static/js/2.acdc5275.chunk.js",
-    "static/css/main.0f5cbd8d.chunk.css",
-    "static/js/main.eaa69726.chunk.js"
+    "static/css/main.5eae5a7a.chunk.css",
+    "static/js/main.d13bf87f.chunk.js"
   ]
 }

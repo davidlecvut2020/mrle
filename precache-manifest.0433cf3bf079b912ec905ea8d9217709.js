@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "107f72b51376b09189b9d7c9b89eedfa",
+    "revision": "9bb3e2036e95e14487fa7b519ab35735",
     "url": "/mrle/index.html"
   },
   {
-    "revision": "fafcfb3616f7c0cf881d",
-    "url": "/mrle/static/css/main.0f5cbd8d.chunk.css"
+    "revision": "6ff378edf6c15a319029",
+    "url": "/mrle/static/css/main.5eae5a7a.chunk.css"
   },
   {
     "revision": "cff3b7bb0d364acfe351",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mrle/static/js/2.acdc5275.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fafcfb3616f7c0cf881d",
-    "url": "/mrle/static/js/main.eaa69726.chunk.js"
+    "revision": "6ff378edf6c15a319029",
+    "url": "/mrle/static/js/main.d13bf87f.chunk.js"
   },
   {
     "revision": "8cbd7f840084bf0c5682",
@@ -136,8 +136,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mrle/static/media/napoj-orange.ddca4158.jpg"
   },
   {
-    "revision": "087af4fb6acf9ac33f1074d9b3d0dfe6",
-    "url": "/mrle/static/media/nem-ran.087af4fb.jpg"
+    "revision": "8a0b35455b66239ad4db556b2464c2a2",
+    "url": "/mrle/static/media/nem-ran.8a0b3545.jpg"
   },
   {
     "revision": "3d0621b890c33e695d7332a710d5624a",
@@ -184,8 +184,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mrle/static/media/sushi-chien.191241aa.jpg"
   },
   {
-    "revision": "e9b8b1f4b76cf48dc5e6519dc419e5c5",
-    "url": "/mrle/static/media/sushi-ebi-tempura.e9b8b1f4.jpg"
+    "revision": "eb81a61af7d1ed5a1312c75cbae0190a",
+    "url": "/mrle/static/media/sushi-ebi-tempura.eb81a61a.jpg"
   },
   {
     "revision": "89110921590bca169f5660498da8c2f3",
