@@ -21,7 +21,6 @@ export default class FoodProvider extends Component {
     loading: true
   };
   componentDidMount() {
-    initializeReactGA();
     let categories = this.formatCategory(category);
     let foods = this.formatMenu(menu);
     let photogalleries = this.formatPhotogalleries(galery);
@@ -32,6 +31,7 @@ export default class FoodProvider extends Component {
       loading: false,
       photogalleries: photogalleries
     });
+    initializeReactGA();
   }
   formatPhotogalleries(galery) {
     let tempItems = [...galery];
