@@ -24,6 +24,9 @@ export default class FoodProvider extends Component {
     let categories = this.formatCategory(category);
     let foods = this.formatMenu(menu);
     let photogalleries = this.formatPhotogalleries(galery);
+    if (!this.loading) {
+      initializeReactGA();
+    }
     this.setState({
       foods,
       categories: categories,
@@ -31,7 +34,6 @@ export default class FoodProvider extends Component {
       loading: false,
       photogalleries: photogalleries
     });
-    initializeReactGA();
   }
   formatPhotogalleries(galery) {
     let tempItems = [...galery];
