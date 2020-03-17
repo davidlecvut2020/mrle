@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.361e508a.chunk.css",
-    "main.js": "/static/js/main.ccbe79a2.chunk.js",
-    "main.js.map": "/static/js/main.ccbe79a2.chunk.js.map",
+    "main.js": "/static/js/main.0c722570.chunk.js",
+    "main.js.map": "/static/js/main.0c722570.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fe64f454.js",
     "runtime-main.js.map": "/static/js/runtime-main.fe64f454.js.map",
-    "static/js/2.d72ffcdb.chunk.js": "/static/js/2.d72ffcdb.chunk.js",
-    "static/js/2.d72ffcdb.chunk.js.map": "/static/js/2.d72ffcdb.chunk.js.map",
+    "static/js/2.c026cbaa.chunk.js": "/static/js/2.c026cbaa.chunk.js",
+    "static/js/2.c026cbaa.chunk.js.map": "/static/js/2.c026cbaa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.44f69ef75b288269fb6cde5c15ae6229.js": "/precache-manifest.44f69ef75b288269fb6cde5c15ae6229.js",
+    "precache-manifest.e0cbf9675447d9d095d649df6aeb928e.js": "/precache-manifest.e0cbf9675447d9d095d649df6aeb928e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.361e508a.chunk.css.map": "/static/css/main.361e508a.chunk.css.map",
-    "static/js/2.d72ffcdb.chunk.js.LICENSE.txt": "/static/js/2.d72ffcdb.chunk.js.LICENSE.txt",
+    "static/js/2.c026cbaa.chunk.js.LICENSE.txt": "/static/js/2.c026cbaa.chunk.js.LICENSE.txt",
     "static/media/aperol-alkoholicky-campari-orange.jpg": "/static/media/aperol-alkoholicky-campari-orange.0cc046c4.jpg",
     "static/media/banh-chung.jpg": "/static/media/banh-chung.c369f0ea.jpg",
     "static/media/banh-cuon.jpg": "/static/media/banh-cuon.cc042c82.jpg",
@@ -60,8 +60,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fe64f454.js",
-    "static/js/2.d72ffcdb.chunk.js",
+    "static/js/2.c026cbaa.chunk.js",
     "static/css/main.361e508a.chunk.css",
-    "static/js/main.ccbe79a2.chunk.js"
+    "static/js/main.0c722570.chunk.js"
   ]
 }
