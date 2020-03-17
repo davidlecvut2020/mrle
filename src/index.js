@@ -7,13 +7,14 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { FoodProvider } from "./context";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+//HasRouter
 
 ReactDOM.render(
   <FoodProvider>
-    <HashRouter>
+    <BrowserRouter>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </FoodProvider>,
   document.getElementById("root")
 );

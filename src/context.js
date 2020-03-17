@@ -11,10 +11,10 @@ function initializeReactGA() {
   console.log("spustim tracker");
   ReactGA.initialize("UA-160721617-1");
   // initGA("UA-160721617-1");
-  ReactGA.pageview("/#/");
-  ReactGA.pageview("/#/menu/");
-  ReactGA.pageview("/#/photogallery/");
-  ReactGA.pageview("/#/contact/");
+  ReactGA.pageview("/");
+  ReactGA.pageview("/menu/");
+  ReactGA.pageview("/photogallery/");
+  ReactGA.pageview("/contact/");
   // PageView();
 }
 

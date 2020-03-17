@@ -139,6 +139,11 @@ h6 {
 .show-nav {
   height: auto;
 }
+.nav-links .show-nav li:active {
+  height: 0;
+  overflow: hidden;
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .nav-btn {
     display: none;
