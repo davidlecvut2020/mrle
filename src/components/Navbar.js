@@ -30,20 +30,28 @@ export default class Navbar extends Component {
           >
             <li>
               {" "}
-              <Link to="/">Novinky</Link>
+              <Link to="/" onClick={this.handleToggle}>
+                Novinky
+              </Link>
               {""}
             </li>
             <li>
               {" "}
-              <Link to="/menu">Menu</Link>{" "}
+              <Link to="/menu" onClick={this.handleToggle}>
+                Menu
+              </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link to="/photogallery">Fotogalerie</Link>{" "}
+              <Link to="/photogallery" onClick={this.handleToggle}>
+                Fotogalerie
+              </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link to="/contakt">Kontakt</Link>{" "}
+              <Link to="/contakt" onClick={this.handleToggle}>
+                Kontakt
+              </Link>{" "}
             </li>
           </ul>
         </div>

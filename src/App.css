@@ -254,7 +254,7 @@ h6 {
 
 /* featured categories */
 .featured-categories {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 .featured-categories-center {
   width: 80vw;
@@ -434,7 +434,7 @@ h6 {
 .contact-info {
   width: 80vw;
   display: grid;
-  margin: 2rem auto;
+  margin: 1rem auto;
   list-style-type: none;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-column-gap: 2rem;
