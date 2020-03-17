@@ -133,16 +133,10 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  /* color: var(--primaryColor); */
   color: #d43031;
 }
 .show-nav {
   height: auto;
-}
-.nav-links .show-nav li:active {
-  height: 0;
-  overflow: hidden;
-  display: none;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
