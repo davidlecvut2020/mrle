@@ -1939,7 +1939,8 @@ export default [
       idCategory: "5",
       price: "289,00",
       isHot: 0,
-      description: "Vịt chiên thập cẩm, gà, lợn, tôm, bò, vịt ½ con",
+      description:
+        "Mix různých druhů masa na plotýnce: kachní, kuřecí, vepřové, hovězí maso a krevety",
       image: {
         fields: {
           file: {
@@ -2177,7 +2178,7 @@ export default [
       price: "199,00",
       isHot: 0,
       description:
-        "„Ubal si sám“ zahrnuje: Rýžový papír, rýžové nudle, salát, bylinky, mango, sezam, omáčku a maso dle výběru",
+        "„Ubal si sám“ zahrnuje: Rýžový papír, rýžové nudle, salát, bylinky, mango, sezam, omáčku a kuřecí maso",
       image: {
         fields: {
           file: {
@@ -2199,7 +2200,7 @@ export default [
       price: "219,00",
       isHot: 0,
       description:
-        "„Ubal si sám“ zahrnuje: Rýžový papír, rýžové nudle, salát, bylinky, mango, sezam, omáčku a maso dle výběru",
+        "„Ubal si sám“ zahrnuje: Rýžový papír, rýžové nudle, salát, bylinky, mango, sezam, omáčku a kachní maso",
       image: {
         fields: {
           file: {
@@ -2221,7 +2222,7 @@ export default [
       price: "209,00",
       isHot: 0,
       description:
-        "„Ubal si sám“ zahrnuje: Rýžový papír, rýžové nudle, salát, bylinky, mango, sezam, omáčku a maso dle výběru",
+        "„Ubal si sám“ zahrnuje: Rýžový papír, rýžové nudle, salát, bylinky, mango, sezam, omáčku a hovězí maso",
       image: {
         fields: {
           file: {
@@ -2243,7 +2244,7 @@ export default [
       price: "219,00",
       isHot: 0,
       description:
-        "„Ubal si sám“ zahrnuje: Rýžový papír, rýžové nudle, salát, bylinky, mango, sezam, omáčku a maso dle výběru",
+        "„Ubal si sám“ zahrnuje: Rýžový papír, rýžové nudle, salát, bylinky, mango, sezam, omáčku a krevety",
       image: {
         fields: {
           file: {
