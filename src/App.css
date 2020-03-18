@@ -289,7 +289,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 .category-header {
-  margin-top: 4rem;
+  margin-top: 1rem;
   letter-spacing: var(--mainSpacing);
 }
 .category-name {
@@ -373,7 +373,7 @@ h6 {
   background: #f7e5b5;
 }
 .food-description {
-  font-size: small;
+  font-size: 0.8rem;
   color: #333;
   display: block;
   margin: 5px;
@@ -397,7 +397,7 @@ h6 {
 /* end of food  */
 /* foodlist */
 .foodslist {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 .foodslist-center {
   width: 90vw;
