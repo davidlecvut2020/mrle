@@ -10,7 +10,9 @@ export default class FoodFilteredList extends Component {
       slug: this.props.match.params.slug
     };
   }
-
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   static contextType = FoodContext;
   render() {
     let { filterFoodsByIdCategory, getCurrentCategory } = this.context;
