@@ -489,31 +489,30 @@ h6 {
 }
 .video-fb {
   text-align: center;
+  max-width: 100%;
+  margin: 2rem auto;
   display: block;
-  margin: 1.5rem;
 }
 .video-fb-desc {
   color: var(--primaryColor);
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 0.8rem;
+  margin: 2rem auto;
+  border-style: none;
+  letter-spacing: var(--mainSpacing);
 }
 .video-fb-desc div {
   width: 5rem;
   height: 5px;
   margin: 15px auto;
   background: var(--primaryColor);
+  border-style: none;
 }
 .srdicko-img {
   text-align: center;
+  width: 90vw;
+  margin: 2.5rem auto;
   display: block;
-  width: 75vw;
-}
-@media screen and (min-width: 680px) {
-  .srdicko-img {
-    width: 100%;
-    max-width: 1280px;
-  }
 }
