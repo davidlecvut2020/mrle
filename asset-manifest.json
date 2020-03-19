@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.52ffddd8.chunk.css",
-    "main.js": "/static/js/main.b9f2616a.chunk.js",
-    "main.js.map": "/static/js/main.b9f2616a.chunk.js.map",
+    "main.css": "/static/css/main.d756e05f.chunk.css",
+    "main.js": "/static/js/main.d91ff5ae.chunk.js",
+    "main.js.map": "/static/js/main.d91ff5ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fe64f454.js",
     "runtime-main.js.map": "/static/js/runtime-main.fe64f454.js.map",
-    "static/js/2.c026cbaa.chunk.js": "/static/js/2.c026cbaa.chunk.js",
-    "static/js/2.c026cbaa.chunk.js.map": "/static/js/2.c026cbaa.chunk.js.map",
+    "static/js/2.960d35c6.chunk.js": "/static/js/2.960d35c6.chunk.js",
+    "static/js/2.960d35c6.chunk.js.map": "/static/js/2.960d35c6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.24a292d307713a3b0c47c7a868b67241.js": "/precache-manifest.24a292d307713a3b0c47c7a868b67241.js",
+    "precache-manifest.fb9fe732e5dd0e1f24e4169f2bba2a91.js": "/precache-manifest.fb9fe732e5dd0e1f24e4169f2bba2a91.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.52ffddd8.chunk.css.map": "/static/css/main.52ffddd8.chunk.css.map",
-    "static/js/2.c026cbaa.chunk.js.LICENSE.txt": "/static/js/2.c026cbaa.chunk.js.LICENSE.txt",
+    "static/css/main.d756e05f.chunk.css.map": "/static/css/main.d756e05f.chunk.css.map",
+    "static/js/2.960d35c6.chunk.js.LICENSE.txt": "/static/js/2.960d35c6.chunk.js.LICENSE.txt",
     "static/media/aperol-alkoholicky-campari-orange.jpg": "/static/media/aperol-alkoholicky-campari-orange.0cc046c4.jpg",
     "static/media/banh-chung.jpg": "/static/media/banh-chung.c369f0ea.jpg",
     "static/media/banh-cuon.jpg": "/static/media/banh-cuon.cc042c82.jpg",
@@ -48,6 +48,7 @@
     "static/media/side-dishes.jpg": "/static/media/side-dishes.af344a67.jpg",
     "static/media/soup-starters.jpg": "/static/media/soup-starters.05ba0b23.jpg",
     "static/media/specialities.jpg": "/static/media/specialities.b1bb444c.jpg",
+    "static/media/srdicko.jpg": "/static/media/srdicko.716aa3fa.jpg",
     "static/media/sushi-box-kaviar.jpg": "/static/media/sushi-box-kaviar.420316b5.jpg",
     "static/media/sushi-box-mix.jpg": "/static/media/sushi-box-mix.35b399a5.jpg",
     "static/media/sushi-box.jpg": "/static/media/sushi-box.d9d24cc5.jpg",
@@ -60,8 +61,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fe64f454.js",
-    "static/js/2.c026cbaa.chunk.js",
-    "static/css/main.52ffddd8.chunk.css",
-    "static/js/main.b9f2616a.chunk.js"
+    "static/js/2.960d35c6.chunk.js",
+    "static/css/main.d756e05f.chunk.css",
+    "static/js/main.d91ff5ae.chunk.js"
   ]
 }
