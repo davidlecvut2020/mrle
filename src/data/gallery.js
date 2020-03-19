@@ -1,3 +1,4 @@
+import Srdicko from "../images/gallery/srdicko.jpg";
 import aperolOrange from "../images/gallery/aperol-alkoholicky-campari-orange.jpg";
 import banhCuon from "../images/gallery/banh-cuon.jpg";
 import banhChung from "../images/gallery/banh-chung.jpg";
@@ -33,6 +34,11 @@ import vietnamCafe from "../images/gallery/vietnamska-kava-kafephin.jpg";
 import vietnamskyTet from "../images/gallery/vietnamsky-tet.jpg";
 
 export default [
+  {
+    src: Srdicko,
+    thumbnail: Srdicko,
+    caption: "Srdičko - VYHRAJME SPOLEČNĚ PROTI KORONA VIRU"
+  },
   {
     src: aperolOrange,
     thumbnail: aperolOrange,
