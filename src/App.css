@@ -509,4 +509,11 @@ h6 {
 .srdicko-img {
   text-align: center;
   display: block;
+  width: 75vw;
+}
+@media screen and (min-width: 680px) {
+  .srdicko-img {
+    width: 100%;
+    max-width: 1280px;
+  }
 }
