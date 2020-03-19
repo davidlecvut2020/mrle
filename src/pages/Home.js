@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import CategoriesFoods from "./CategoriesFoods";
+import News from "./News";
 
 const Home = () => {
   return (
     <>
+      <News />
       <Hero>
         <Banner
           title="Chcete zažít opravdovou Asii?"
