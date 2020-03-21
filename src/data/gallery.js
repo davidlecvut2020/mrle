@@ -3,6 +3,7 @@ import aperolOrange from "../images/gallery/aperol-alkoholicky-campari-orange.jp
 import banhCuon from "../images/gallery/banh-cuon.jpg";
 import banhChung from "../images/gallery/banh-chung.jpg";
 import banhTom from "../images/gallery/banh-tom.jpg";
+import banhTom1 from "../images/gallery/banh-tom-1.jpg";
 import bunBoNamBo from "../images/gallery/bun-bo-nam-bo.jpg";
 import bunChaObama from "../images/gallery/bun-cha-obama.jpg";
 import capuchino from "../images/gallery/capucino-espresso.jpg";
@@ -123,6 +124,11 @@ export default [
     src: banhCuon,
     thumbnail: banhCuon,
     caption: "Banh Cuon"
+  },
+  {
+    src: banhTom1,
+    thumbnail: banhTom1,
+    caption: "Banh Tom"
   },
   {
     src: banhTom,

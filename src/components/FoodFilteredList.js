@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import { FoodContext } from "../context";
 import Food from "./Food";
@@ -39,7 +39,9 @@ export default class FoodFilteredList extends Component {
             {this.state.slug === "lunch" ? "Oběd 10:00 - 14:00" : categoryName}
           </p>
           <p className="category-desc">
-            Projděte si naše nabídky a vyberte si, co si u nás dáte přístě!
+            {this.state.slug === "lunch"
+              ? "K obědové menu ZDARMA na výběr: Salát, Cha Gio nebo Polévka dle denní nabídky"
+              : "Projděte si naše nabídky a vyberte si, co si u nás dáte přístě!"}
           </p>
           <p className="category-desc">
             {this.state.slug == "main-courses"
