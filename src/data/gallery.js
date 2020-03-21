@@ -130,11 +130,6 @@ export default [
     caption: "Banh Tom"
   },
   {
-    src: banhCuon,
-    thumbnail: banhCuon,
-    caption: "Banh Cuon"
-  },
-  {
     src: banhChung,
     thumbnail: banhChung,
     caption: "Banh Chung"

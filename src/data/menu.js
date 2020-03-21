@@ -609,7 +609,7 @@ export default [
       name: "Jarní závitky (3ks)",
       code: "5",
       slug: "jarni-zavitky-3ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "69,00",
       isHot: 0,
       description:
@@ -631,7 +631,7 @@ export default [
       name: "Jarní závitky s krevetami (3ks)",
       code: "6",
       slug: "jarni-zavitky-s-krevetami-3ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "89,00",
       isHot: 0,
       description:
@@ -653,7 +653,7 @@ export default [
       name: "Bezmasé jarní závitky (3ks)",
       code: "7",
       slug: "bezmase-jarni-zavitky-3ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "69,00",
       isHot: 2,
       description: "Tofu, batáty, různé druhy zeleniny balené v rýžovém papíru",
@@ -674,7 +674,7 @@ export default [
       name: "Wonton knedlíčky (4ks)",
       code: "8",
       slug: "wonton-knedlicky-4ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "99,00",
       isHot: 0,
       description: "Krevety, vepřové maso, cibulka",
@@ -695,7 +695,7 @@ export default [
       name: "Ha cao knedlíčky (4ks)",
       code: "9",
       slug: "ha-cao-knedlicky-4ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "89,00",
       isHot: 2,
       description: "Krevety, vepřové maso, různé druhy zeleniny",
@@ -716,7 +716,7 @@ export default [
       name: "La Lot (4ks)",
       code: "10",
       slug: "la-lot-4ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "89,00",
       isHot: 0,
       description:
@@ -738,7 +738,7 @@ export default [
       name: "Goi Cuon Ga (2ks)",
       code: "11",
       slug: "goi-cuon-ga-2ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "69,00",
       isHot: 0,
       description:
@@ -760,7 +760,7 @@ export default [
       name: "Goi Cuon Bo",
       code: "12",
       slug: "goi-cuon-bo",
-      idCategory: "17",
+      idCategory: "16",
       price: "69,00",
       isHot: 0,
       description:
@@ -782,7 +782,7 @@ export default [
       name: "Goi Cuon Tofu",
       code: "13",
       slug: "goi-cuon-tofu",
-      idCategory: "17",
+      idCategory: "16",
       price: "69,00",
       isHot: 0,
       description:
@@ -804,7 +804,7 @@ export default [
       name: "Ga Lui (3ks)",
       code: "14",
       slug: "ga-lui-3ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "79,00",
       isHot: 0,
       description: "Kuřecí špíz",
@@ -846,7 +846,7 @@ export default [
       name: "Tom Chien (3ks)",
       code: "16",
       slug: "tom-chien-3ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "119,00",
       isHot: 0,
       description: "Krevety v tempuře podávané s rybí omáčkou",
@@ -867,7 +867,7 @@ export default [
       name: "Banh Tom (2ks)",
       code: "18",
       slug: "banh-tom-2ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "89,00",
       isHot: 0,
       description: "Krevetí placky s batáty podávané s rybí omáčkou",
@@ -888,7 +888,7 @@ export default [
       name: "Banh Bao Vit (2ks)",
       code: "19",
       slug: "banh-bao-vit-2ks",
-      idCategory: "17",
+      idCategory: "16",
       price: "79,00",
       isHot: 0,
       description:
@@ -910,7 +910,7 @@ export default [
       name: "Banh Bao XXL",
       code: "20",
       slug: "banh-bao-xxl",
-      idCategory: "17",
+      idCategory: "16",
       price: "69,00",
       isHot: 0,
       description: "",
@@ -2343,27 +2343,6 @@ export default [
   },
   {
     sys: {
-      id: "172"
-    },
-    fields: {
-      name: "Banh Chuoi",
-      code: "A2",
-      slug: "banh-chuoi",
-      idCategory: "19",
-      price: "49,00",
-      isHot: 0,
-      description: "Banán, lepkavá rýže, kokosové mléko, sezam",
-      image: {
-        fields: {
-          file: {
-            url: ""
-          }
-        }
-      }
-    }
-  },
-  {
-    sys: {
       id: "173"
     },
     fields: {
@@ -2412,7 +2391,7 @@ export default [
       name: "Kem Hoa Qua",
       code: "A5",
       slug: "kem-hoa-qua",
-      idCategory: "20",
+      idCategory: "19",
       price: "79,00",
       isHot: 0,
       description: "Ovocná zmrzlina",
@@ -2430,10 +2409,10 @@ export default [
       id: "176"
     },
     fields: {
-      name: "Creme Brulee",
+      name: "Crème brûlée",
       code: "A6",
       slug: "creme-brulee",
-      idCategory: "20",
+      idCategory: "19",
       price: "59,00",
       isHot: 0,
       description: "",
@@ -2454,7 +2433,7 @@ export default [
       name: "Xoi Xoai Cot Dua",
       code: "A7",
       slug: "xoi-xoai-cot-dua",
-      idCategory: "20",
+      idCategory: "19",
       price: "89,00",
       isHot: 0,
       description: "Lepkavá rýže, mango, kokosové mléko",
@@ -2472,13 +2451,13 @@ export default [
       id: "178"
     },
     fields: {
-      name: "Caramen",
+      name: "Crème caramel",
       code: "A8",
-      slug: "caramen",
-      idCategory: "20",
+      slug: "creme-caramel",
+      idCategory: "19",
       price: "49,00",
       isHot: 0,
-      description: "Vařená kreveta",
+      description: "",
       image: {
         fields: {
           file: {
@@ -4535,27 +4514,6 @@ export default [
   },
   {
     sys: {
-      id: "293"
-    },
-    fields: {
-      name: "Saigon lahvové 0.5l",
-      code: "854",
-      slug: "saigon-lahvove-05l",
-      idCategory: "22",
-      price: "60,00",
-      isHot: 0,
-      description: "",
-      image: {
-        fields: {
-          file: {
-            url: ""
-          }
-        }
-      }
-    }
-  },
-  {
-    sys: {
       id: "294"
     },
     fields: {
@@ -4608,27 +4566,6 @@ export default [
       price: "25,00",
       isHot: 0,
       description: "",
-      image: {
-        fields: {
-          file: {
-            url: ""
-          }
-        }
-      }
-    }
-  },
-  {
-    sys: {
-      id: "297"
-    },
-    fields: {
-      name: "Nep moi Vietnam",
-      code: "903",
-      slug: "nep-moi-vietnam",
-      idCategory: "22",
-      price: "25,00",
-      isHot: 0,
-      description: "Tradiční rýžová vodka z Vietnamu se specifickou chutí Asie",
       image: {
         fields: {
           file: {
@@ -5153,7 +5090,7 @@ export default [
       idCategory: "2",
       price: "69,00",
       isHot: 0,
-      description: "",
+      description: "Křupavé kuřecí kousky s hraholkami",
       image: {
         fields: {
           file: {

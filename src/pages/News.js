@@ -6,7 +6,7 @@ const News = () => {
     <>
       <div>
         <p className="video-fb-desc">
-          Vyhrajme společně proti Korona viru
+          Vyhrajme společně proti Koronaviru
           <div />
         </p>
         <div>
