@@ -11,7 +11,7 @@ export default [
       price: "109,00",
       isHot: 2,
       description:
-        "Restovaná kuřecí prsíčka se zeleninou, červeným cari, kokosovým mlékem a smetanou",
+        "Restovaná kuřecí prsíčka se zeleninou, červeným cari, kokosovým mlékem a smetanou, rýže",
       image: {
         fields: {
           file: {
@@ -32,7 +32,8 @@ export default [
       idCategory: "1",
       price: "99,00",
       isHot: 1,
-      description: "Restovaná kuřecí prsíčka se zeleninou, chili a bazalkou",
+      description:
+        "Restovaná kuřecí prsíčka se zeleninou, chili a bazalkou, rýže",
       image: {
         fields: {
           file: {
@@ -54,7 +55,7 @@ export default [
       price: "119,00",
       isHot: 2,
       description:
-        "Smažená kuřecí stehna se zeleninou, citronovou trávou a chili.",
+        "Smažená kuřecí stehna se zeleninou, citronovou trávou a chili, rýže",
       image: {
         fields: {
           file: {
@@ -75,7 +76,7 @@ export default [
       idCategory: "1",
       price: "99,00",
       isHot: 0,
-      description: "Kuřecí prsíčka se zeleninou na sladko-kyselo",
+      description: "Kuřecí prsíčka se zeleninou na sladko-kyselo, rýže",
       image: {
         fields: {
           file: {
@@ -97,7 +98,7 @@ export default [
       price: "169,00",
       isHot: 2,
       description:
-        "Smažená kachna se zeleninou, červeným cari, kokosovým mlékem a smetanou",
+        "Smažená kachna se zeleninou, červeným cari, kokosovým mlékem a smetanou, rýže",
       image: {
         fields: {
           file: {
@@ -118,7 +119,7 @@ export default [
       idCategory: "1",
       price: "159,00",
       isHot: 1,
-      description: "Smažená kachna se zeleninou, chili a bazalkou",
+      description: "Smažená kachna se zeleninou, chili a bazalkou, rýže",
       image: {
         fields: {
           file: {
@@ -139,7 +140,8 @@ export default [
       idCategory: "1",
       price: "159,00",
       isHot: 2,
-      description: "Smažená kachna se zeleninou, citronovou trávou a chili",
+      description:
+        "Smažená kachna se zeleninou, citronovou trávou a chili, rýže",
       image: {
         fields: {
           file: {
@@ -160,7 +162,7 @@ export default [
       idCategory: "1",
       price: "159,00",
       isHot: 0,
-      description: "Smažená kachna se zeleninou na sladko-kyselo",
+      description: "Smažená kachna se zeleninou na sladko-kyselo, rýže",
       image: {
         fields: {
           file: {
@@ -181,7 +183,7 @@ export default [
       idCategory: "1",
       price: "109,00",
       isHot: 1,
-      description: "Restované hovězí se zeleninou, chili a bazalkou",
+      description: "Restované hovězí se zeleninou, chili a bazalkou, rýže",
       image: {
         fields: {
           file: {
@@ -202,7 +204,8 @@ export default [
       idCategory: "1",
       price: "109,00",
       isHot: 2,
-      description: "Restované hovězí se zeleninou, citronovou trávou a chili ",
+      description:
+        "Restované hovězí se zeleninou, citronovou trávou a chili, rýže",
       image: {
         fields: {
           file: {
@@ -224,7 +227,7 @@ export default [
       price: "119,00",
       isHot: 2,
       description:
-        "Restované hovězí se zeleninou, červeným cari, kokosovým mlékem a smetanou ",
+        "Restované hovězí se zeleninou, červeným cari, kokosovým mlékem a smetanou, rýže",
       image: {
         fields: {
           file: {
@@ -245,7 +248,7 @@ export default [
       idCategory: "1",
       price: "109,00",
       isHot: 2,
-      description: "Restované tofu se zeleninou a červeným cari ",
+      description: "Restované tofu se zeleninou a červeným cari, rýže",
       image: {
         fields: {
           file: {
@@ -266,7 +269,8 @@ export default [
       idCategory: "1",
       price: "99,00",
       isHot: 2,
-      description: "Restované tofu se zeleninou, citronovou trávou a chili ",
+      description:
+        "Restované tofu se zeleninou, citronovou trávou a chili, rýže",
       image: {
         fields: {
           file: {
@@ -287,7 +291,7 @@ export default [
       idCategory: "1",
       price: "99,00",
       isHot: 2,
-      description: "Tofu na pepři se zeleninou",
+      description: "Tofu na pepři se zeleninou, rýže",
       image: {
         fields: {
           file: {
