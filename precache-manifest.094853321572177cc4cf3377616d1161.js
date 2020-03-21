@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e38326cb7a7c12ca74aec5a5e334af7f",
+    "revision": "246d053bddcd247c1e79f5df41793e91",
     "url": "/index.html"
   },
   {
-    "revision": "aaa03ba3093c625fa0a3",
+    "revision": "12aa7f660216cab42f84",
     "url": "/static/css/main.7fa25c73.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.50d3b1e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aaa03ba3093c625fa0a3",
-    "url": "/static/js/main.bb54c9ce.chunk.js"
+    "revision": "12aa7f660216cab42f84",
+    "url": "/static/js/main.18db0524.chunk.js"
   },
   {
     "revision": "ed7ddaaff9c0565ca501",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/banh-cuon.cc042c82.jpg"
   },
   {
-    "revision": "a6f4db1048e7c11e1a2d97e6351e7036",
-    "url": "/static/media/banh-tom.a6f4db10.jpg"
+    "revision": "1ee2585b7ca3b1879670a83d8da65950",
+    "url": "/static/media/banh-tom.1ee2585b.jpg"
   },
   {
     "revision": "3318d94167a494d54615e5892812145d",
