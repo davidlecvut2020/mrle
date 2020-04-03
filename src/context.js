@@ -11,11 +11,12 @@ export default class FoodProvider extends Component {
     sortedfoods: [],
     categories: [],
     photogalleries: [],
-    loading: true
+    loading: true,
   };
   componentDidMount() {
     let categories = this.formatCategory(category);
     let foods = this.formatMenu(menu);
+    foods = foods.sort((a, b) => a.code - b.code);
     let photogalleries = this.formatPhotogalleries(galery);
 
     this.setState({
@@ -23,7 +24,7 @@ export default class FoodProvider extends Component {
       categories: categories,
       sortedfoods: foods,
       loading: false,
-      photogalleries: photogalleries
+      photogalleries: photogalleries,
     });
   }
   formatPhotogalleries(galery) {
@@ -31,7 +32,7 @@ export default class FoodProvider extends Component {
     return tempItems;
   }
   formatCategory(category) {
-    let tempItems = category.map(item => {
+    let tempItems = category.map((item) => {
       let id = item.sys.id;
       let image = item.fields.image.fields.file.url;
       let categ = { ...item.fields, image, id };
@@ -40,7 +41,7 @@ export default class FoodProvider extends Component {
     return tempItems;
   }
   formatMenu(menu) {
-    let tempItems = menu.map(item => {
+    let tempItems = menu.map((item) => {
       let id = item.sys.id;
       let image = item.fields.image.fields.file.url;
       let food = { ...item.fields, image, id };
@@ -48,18 +49,18 @@ export default class FoodProvider extends Component {
     });
     return tempItems;
   }
-  getFood = slug => {
+  getFood = (slug) => {
     let tempfoods = [...this.state.foods];
-    const food = tempfoods.find(food => food.slug === slug);
+    const food = tempfoods.find((food) => food.slug === slug);
     return food;
   };
-  handleChange = event => {
+  handleChange = (event) => {
     const target = event.target;
     const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
     this.setState(
       {
-        [name]: value
+        [name]: value,
       },
       this.filterfoods
     );
@@ -71,34 +72,35 @@ export default class FoodProvider extends Component {
     price = parseInt(price);
     // filter by type
     if (type !== "all") {
-      tempfoods = tempfoods.filter(food => food.type === type);
+      tempfoods = tempfoods.filter((food) => food.type === type);
     }
     // filter by price
-    tempfoods = tempfoods.filter(food => food.price <= price);
+    tempfoods = tempfoods.filter((food) => food.price <= price);
     this.setState({
-      sortedfoods: tempfoods
+      sortedfoods: tempfoods,
     });
   };
-  filterFoodsByIdCategory = slugCategory => {
+  filterFoodsByIdCategory = (slugCategory) => {
     let tempfoods = [...this.state.foods];
     let categories = [...this.state.categories];
     let categorySelected = categories.find(
-      category => category.slug === slugCategory
+      (category) => category.slug === slugCategory
     );
 
     if (categorySelected) {
       tempfoods = tempfoods.filter(
-        food => food.idCategory === categorySelected.id
+        (food) => food.idCategory === categorySelected.id
       );
+      // tempfoods = tempfoods.sort((a, b) => a.code - b.code);
       return tempfoods;
     } else {
       return [];
     }
   };
-  getCurrentCategory = slugCategory => {
+  getCurrentCategory = (slugCategory) => {
     let categories = [...this.state.categories];
     let categorySelected = categories.find(
-      category => category.slug === slugCategory
+      (category) => category.slug === slugCategory
     );
     return categorySelected;
   };
@@ -110,7 +112,7 @@ export default class FoodProvider extends Component {
           getfood: this.getfood,
           handleChange: this.handleChange,
           filterFoodsByIdCategory: this.filterFoodsByIdCategory,
-          getCurrentCategory: this.getCurrentCategory
+          getCurrentCategory: this.getCurrentCategory,
         }}
       >
         {this.props.children}
@@ -126,7 +128,7 @@ export function withFoodConsumer(Component) {
   return function ConsumerWrapper(props) {
     return (
       <FoodConsumer>
-        {value => <Component {...props} context={value} />}
+        {(value) => <Component {...props} context={value} />}
       </FoodConsumer>
     );
   };
