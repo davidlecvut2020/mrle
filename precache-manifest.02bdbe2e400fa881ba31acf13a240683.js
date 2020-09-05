@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26b11f8b39040f04185f35a85ca5b5bf",
+    "revision": "1487d7d18115b8eabf388692e50f5eda",
     "url": "/index.html"
   },
   {
-    "revision": "37370211683ab2e9ea5f",
+    "revision": "6f8ac67f0ef15f28b30e",
     "url": "/static/css/main.f914dc6e.chunk.css"
   },
   {
-    "revision": "5d1b4a84ed2b0e58412d",
-    "url": "/static/js/2.706ca2a0.chunk.js"
+    "revision": "1f7f2ac499291bdc479c",
+    "url": "/static/js/2.f04ad6ab.chunk.js"
   },
   {
     "revision": "dec6ed67bc6c974a2e27f3166c463136",
-    "url": "/static/js/2.706ca2a0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f04ad6ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37370211683ab2e9ea5f",
-    "url": "/static/js/main.486ba361.chunk.js"
+    "revision": "6f8ac67f0ef15f28b30e",
+    "url": "/static/js/main.8b0bee59.chunk.js"
   },
   {
-    "revision": "ed7ddaaff9c0565ca501",
-    "url": "/static/js/runtime-main.fe64f454.js"
+    "revision": "6d03d3c4ff4eeda17a9b",
+    "url": "/static/js/runtime-main.d15c5126.js"
   },
   {
     "revision": "0cc046c4cb3db8c44bf92ca4558272fc",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bun-cha-obama.508924c7.jpg"
   },
   {
-    "revision": "befb1ea1750a6c40955c1e844f31aa33",
-    "url": "/static/media/bun-pho.befb1ea1.jpg"
+    "revision": "80e5a17557391799583c6b6fbc01c5fd",
+    "url": "/static/media/bun-pho.80e5a175.jpg"
   },
   {
     "revision": "e80c47aded3f46a3921890d46fc182ba",
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/creme-caramel.9f68e910.jpg"
   },
   {
-    "revision": "404078e98a396b717ceb2941bef88e4d",
-    "url": "/static/media/deserts.404078e9.jpg"
+    "revision": "e86ab58f7ff93d576beca599cc5894d9",
+    "url": "/static/media/deserts.e86ab58f.jpg"
   },
   {
     "revision": "230e476b3f0b06c5d6534f9d093f8591",
     "url": "/static/media/domaci-limolada.230e476b.jpg"
   },
   {
-    "revision": "37c9a783c495b4e2f0f11ebb61da1291",
-    "url": "/static/media/drinks.37c9a783.jpg"
+    "revision": "0c3781632579046d138a19b05ac79c3c",
+    "url": "/static/media/drinks.0c378163.jpg"
   },
   {
     "revision": "517ca3a6af2560e68c7568690f096887",
@@ -96,12 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/loading-arrow.e9ea7394.gif"
   },
   {
-    "revision": "d2fdd50bd055bec2ef6016c072ec134b",
-    "url": "/static/media/lunch.d2fdd50b.jpg"
+    "revision": "cecfad685866464d4b40aaf761187e03",
+    "url": "/static/media/lunch.cecfad68.jpg"
   },
   {
-    "revision": "6e56ec15a4a8775b0394c7bc3fa8f358",
-    "url": "/static/media/main-courses.6e56ec15.jpg"
+    "revision": "94049ba7929e69ecaf469a2d7d1edbfa",
+    "url": "/static/media/main-courses.94049ba7.jpg"
   },
   {
     "revision": "b652e682ed8fe04a291da1509832dc44",
@@ -156,20 +156,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pho-bo-ga.6ecebab7.jpg"
   },
   {
-    "revision": "9f873115d6e1925b03a6a7f8a7f36c21",
-    "url": "/static/media/salads.9f873115.jpg"
+    "revision": "f637a20c6eaea2f9b5594d5b8e7d2858",
+    "url": "/static/media/salads.f637a20c.jpg"
   },
   {
     "revision": "af344a679638e447bf1772d7e4205ca1",
     "url": "/static/media/side-dishes.af344a67.jpg"
   },
   {
-    "revision": "05ba0b23e29054fc0f7286f8fe913587",
-    "url": "/static/media/soup-starters.05ba0b23.jpg"
+    "revision": "2b19eb738497b9b1cd26bf3648d2946f",
+    "url": "/static/media/soup-starters.2b19eb73.jpg"
   },
   {
-    "revision": "b1bb444c8b9aa0612cc7ede1b14762c7",
-    "url": "/static/media/specialities.b1bb444c.jpg"
+    "revision": "f60fe5ae372a71c46e2fbb3de2ba7f35",
+    "url": "/static/media/specialities.f60fe5ae.jpg"
   },
   {
     "revision": "195d973d177a3813c6a72bb674a9f029",
@@ -200,8 +200,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sushi-ebi-tempura.eb81a61a.jpg"
   },
   {
-    "revision": "89110921590bca169f5660498da8c2f3",
-    "url": "/static/media/sushi.89110921.jpg"
+    "revision": "b1c572f090015226406a54efc28b706f",
+    "url": "/static/media/sushi.b1c572f0.jpg"
   },
   {
     "revision": "a01202d8ebfe37adc0ab791332ac46af",
